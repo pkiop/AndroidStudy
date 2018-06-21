@@ -1,3 +1,3 @@
-![Alt text](/a/a.jpg)
-![Alt text](/b.jpg)
+![Alt text](./a/a.jpg)
+![Alt text](./a/b.jpg)
 
