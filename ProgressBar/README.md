@@ -2,6 +2,6 @@ ProgressBar
 ==============
 
 <div>
-  <img src="a/a.jpg" width="200" />
-  <img src="a/b.jpg" width="200" />
+  <img src="pic/a.jpg" width="200" />
+  <img src="pic/b.jpg" width="200" />
 </div>
