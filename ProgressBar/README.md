@@ -1,3 +1,5 @@
-![Alt text](./a/a.jpg){: width="100" height="100"}
-![Alt text](./a/b.jpg){: width="100" height="100"}
+jemok
+===============
+<img src="a/a.jpg" style="width: 200px;"/>
+<img src="a/b.jpg" style="width: 200px;"/>
 
