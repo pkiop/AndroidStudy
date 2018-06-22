@@ -27,8 +27,17 @@ Fragment
 	1. xml을 이용해서
 	2. 자바 소스코드를 이용해서.
 
+----
+
+OnCreateView 에서 return 값을 원래 super~~ 이렇게 되어 있는 걸 원하는 것으로 바꾸지 않으면 
+xml 생성할 수 없다는 에러가 나온다.
+
+---- 
+
+이 방식으로 이미지 띄울 때 용량이 너무 크면 에러가 난다.
 
 <div>
 	<img src="./pic/a.jpg" width="200">
 	<img src="./pic/b.jpg" width="200">
+	<img src="./pic/c.jpg" width="200">
 </div>
