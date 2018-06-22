@@ -20,7 +20,7 @@ Fragment
 
 ------
 
-슈퍼클래스로 Fragment를 상속받아야 하는ㄷ ㅔ그냥 Fragment 랑 이전 버전에서도 사용할 수 있게 해주는 support Fragment가 있는데 후자 선택
+슈퍼클래스로 Fragment를 상속받아야 하는데 그냥 Fragment 랑 이전 버전에서도 사용할 수 있게 해주는 support Fragment가 있는데 후자 선택
 
 프래그먼트 추가하는 방법은 2가지 
 
@@ -28,6 +28,7 @@ Fragment
 	2. 자바 소스코드를 이용해서.
 
 
-
-<img src="./pic/a.jpg" width="200">
-<img src="./pic/b.jpg" width="200">
+<div>
+	<img src="./pic/a.jpg" width="200">
+	<img src="./pic/b.jpg" width="200">
+</div>
