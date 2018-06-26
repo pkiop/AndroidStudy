@@ -11,6 +11,7 @@ res 항목에서 새로 폴더를 만든다.
 
 app이 빨간색이 뜬다면 빨간색 app에 커서 갖다대고 알트 엔터
 
+'''
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
 xmlns:app="http://schemas.android.com/apk/res-auto">
@@ -33,7 +34,7 @@ android:icon="@drawable/a"
 app:showAsAction="always"
 />
 </menu>
-
+'''
 
 이렇게 작성했으면 등록해줘야한다. 
 
@@ -43,7 +44,7 @@ onCreateOptionsMenu
 
 를 찾아 호출
 
-
+'''
 package com.example.pkiop.myoptionmenu;
 
 import android.support.v7.app.AppCompatActivity;
@@ -110,6 +111,7 @@ Toast.makeText(this,"설정",Toast.LENGTH_LONG).show();
 return super.onOptionsItemSelected(item);
 }
 }
+'''
 
 
 버튼 누르면 변화 
@@ -126,7 +128,7 @@ return super.onOptionsItemSelected(item);
 
 다른 없애는 방법
 
-
+'''
 @Override
 protected void onCreate(Bundle savedInstanceState) {
 super.onCreate(savedInstanceState);
@@ -134,12 +136,13 @@ setContentView(R.layout.activity_main);
 ActionBar abar = getSupportActionBar();
 abar.hide();
 }
+'''
 
 메뉴바 안에 아예 레이아웃을 집어넣을 수도 있다. 
 
 부분화면 만들듯이
 
 <div>
-	<img src="./pic/a.jpg" width="200" height="200">
-	<img src="./pic/b.jpg" width="200" height="200">
+	<img src="./pic/a.jpg" width="200">
+	<img src="./pic/b.jpg" width="200">
 </div>
