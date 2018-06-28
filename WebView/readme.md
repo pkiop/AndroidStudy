@@ -16,4 +16,6 @@
 edittext에서 어떤 키보드가 나올 지 선택가능
 
 inputtype에서 선택
+
+
 <img src="./pic/a.jpg" width="200">
